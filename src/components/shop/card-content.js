@@ -9,7 +9,7 @@ export const CardView = ({ data, handleOpen }) => {
       <Grid container spacing={2}>
         {data.map((card, idx) => {
           return (
-            <Grid item xs={4} key={idx}>
+            <Grid item xs={12} sm={6} md={4} key={idx}>
               <CardData cardInfo={card} handleOpen={handleOpen} />
             </Grid>
           );
