@@ -8,52 +8,51 @@ export const theme = createTheme({
       dark: '#1f629a',
     },
     secondary: {
-      light: '#fff',
       main: '#01ae8f',
       dark: '#118e77',
     },
     tertiary: {
-      light: '#fff',
       main: '#453fbb',
       dark: '#1e1989',
     },
     quaternary: {
-      light: '#fff',
       main: '#ff3c00',
       dark: '#bf2f03',
     },
     success: {
-      light: '#fff',
       main: '#3eaa05',
       dark: '#3c8416',
     },
     error: {
-      light: '#fff',
       main: '#ff4d5f',
       dark: '#ba002c',
     },
     warning: {
-      light: '#fff',
       main: '#ff7e00',
       dark: '#b86d24',
     },
     info: {
-      light: '#fff',
       main: '#265fb4',
       dark: '#0f3d81',
     },
     disable: {
-      light: '#fff',
       main: '#d0d9e2',
       dark: '#aeb8c3',
     },
     gray: {
-      light: '#e8e8e8',
+      light: '#d8d8dd',
       main: '#e8e8e8',
       dark: '#e8e8e8',
+      darkest: '#b4b4b4',
     },
     bg: {
+      light: '#fbfbfb',
       main: '#eef0f4',
+    },
+    black: {
+      light: '#5d6870',
+      dark: '#7b7c7c',
+      darkest: '#959598',
     },
     contrastThreshold: 3,
     tonalOffset: 0.2,
