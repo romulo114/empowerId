@@ -103,12 +103,12 @@ export const Content = ({ isGridView }) => {
                 border: `1px solid ${theme.palette.gray.darkest}`,
                 borderRight: 'none',
               },
+              '& li:last-child': {
+                borderRight: `1px solid ${theme.palette.gray.darkest}`,
+              },
               '& .Mui-selected': {
                 backgroundColor: theme.palette.primary.main,
                 color: 'white',
-              },
-              '& li:last-child': {
-                borderRight: `1px solid ${theme.palette.gray.darkest}`,
               },
             }}
           />
@@ -252,6 +252,24 @@ export const Content = ({ isGridView }) => {
                 </Typography>
               </Box>
             </Box>
+            <Button
+              py={2}
+              mx={3}
+              sx={{
+                color: theme.palette.primary.light,
+                backgroundColor: theme.palette.primary.main,
+                marginTop: '40px',
+                marginLeft: '32px',
+                border: `1px solid ${theme.palette.primary.main}`,
+                '&:hover': {
+                  background: theme.palette.primary.light,
+                  color: theme.palette.primary.main,
+                },
+              }}
+              onClick={handleClose}
+            >
+              Close
+            </Button>
           </Box>
         </Drawer>
       </Box>
