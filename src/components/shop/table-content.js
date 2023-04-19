@@ -200,6 +200,9 @@ export function TableView({ data, handleOpen }) {
                               padding: '8px 12px',
                               borderRadius: '4px',
                               border: `1px solid ${theme.palette.secondary.main}`,
+                              '&:hover': {
+                                color: theme.palette.secondary.main
+                              }
                             }}
                             onClick={() => handleOpen(row)}
                           >
